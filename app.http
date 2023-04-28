@@ -1,0 +1,30 @@
+GET http://localhost:5000/todos/?status=TO%20DO
+
+###
+
+GET http://localhost:5000/todos/?priority=HIGH
+
+###
+
+GET http://localhost:5000/todos/?priority=HIGH&status=IN%20PROGRESS
+
+###
+
+GET http:localhost:5000/todos/?search_q=Learn
+
+###
+
+GET http://localhost:5000/todos/2/
+
+###
+
+POST http://localhost:5000/todos/
+
+###
+
+PUT http://localhost:5000/todos/2/
+
+
+###
+
+DELETE http://localhost:5000/todos/2/
